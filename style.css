@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai', cursive;
+}
+body{
+    background: lightgoldenrodyellow;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 83%;
+    width:100%;
+    z-index: -1;
+   /* opacity: 0.4; */
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin: 10px 34px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 20px;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+#navbar ul li a:hover{
+    color: black;
+    font-size: 1.9rem;
+    transition: 0.5s;
+   
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    color: rgb(218, 225, 231);
+    
+    padding: 3px 200px;
+}
+#home::before{
+    content: "";
+    background: url(background.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 80px;
+    left:0px;
+    height: 600px;
+    width:100%;
+    z-index: -1;
+   
+}
+#home p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.h-primary{
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+}
+#home button{
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 20px;
+    cursor: pointer;
+}
+/* End of Home Section */
+
+/* Services Section */
+
+#main h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.card {
+    width: 23%;
+    height: 100%;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 10px;
+}
+
+
+.image img {
+    width: 80%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/*End of  Services Section */
+
+
+
+/* Menu's Section */
+
+
+#Menues h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: lightgoldenrodyellow;
+}
+.card {
+    width: 32%;
+    height: 100%;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 10px;
+}
+
+
+.image img {
+    width: 80%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+/* End of Menu's Section */
+
+/* Contact-us Section */
+
+#Contact-us{
+    background: lightgoldenrodyellow;
+}
+
+#Contact-us h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-form{
+    margin: auto;
+    width: 40%;
+    border: 2px solid black;
+    background: #fff;
+   
+    
+
+}
+.input-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.input-row .input-group{
+    padding: 20px;
+    
+}
+
+.input-row .input-group input{
+    border: none;
+    border-bottom: 2px solid rgb(90, 84, 84);
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+    
+}
+
+.button button{
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+    margin: 20px;
+    cursor: pointer;
+}
+  
+/* End of Contact-us Section */
+
+/* footer section styling */
+footer{
+    margin-top: 20px;
+    background: black;
+    padding: 15px 23px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+footer span a{
+    color: yellow;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
+
+
